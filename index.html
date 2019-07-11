@@ -28,8 +28,16 @@
     <form id="survey-form">
       <div>
         <input type="text" id="name"><br>
-        <input type="email" id="email"><br>
-        <input type="number" id="number"><br>
+        <label id="name-label" placeholder="Enter Your Name">Name</label>
+        <input type="email" id="email" placeholder="Enter Your email"><br>
+        <label id="email-label"> Email</label>
+  <input type="number" id="number" min="1" max="11" ><br>
+        <label id="number-label" placeholder="Enter Your Number">Number</label>
+      <select type="option" id="dropdown"> Select any</select>
+      <option type="radio" name="radio-button">Software</option>
+      <option type="checkbox" value="1"></option>
+      <textarea>Enter your text</textarea>
+      <button id="submit"></button>
       </div>
     </form>
     <script  src="js/index.js"></script>
